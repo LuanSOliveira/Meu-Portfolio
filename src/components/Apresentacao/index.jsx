@@ -3,7 +3,7 @@ import styles from "./Apresentacao.module.scss"
 const Apresentacao = () => {
     return (
         <section className={styles.apresentacao}>
-            <img src="src/assets/img/perfil.png" alt="imagem de perfil"/>
+            <img src="https://raw.githubusercontent.com/LuanSOliveira/Meu-Portfolio/main/src/assets/img/perfil.png" alt="imagem de perfil"/>
             <div className={styles.textoApresentacao}>
                 <h2>BEM VINDO!</h2>
                 <p>Olá, me chamo Luan.</p>
