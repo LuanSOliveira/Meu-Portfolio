@@ -1,0 +1,60 @@
+.navbar{
+    background: rgba(12, 12, 12, 0.6);
+    padding: 30px 20px;
+    margin-bottom: 64px;
+    box-shadow: 1px 1px 3px black;
+    display: flex;
+    justify-content: space-between;
+    
+    nav{
+        margin: 32px 150px 0 0;
+    }
+    
+}
+
+.home{
+    display: flex;
+    margin-left: 25px;
+    text-decoration: none;
+
+    img{
+        width: 70px;
+    }
+    
+    h1{
+        color: white;
+        margin: 32px 0 0 15px;
+    }
+}
+
+@media (max-width: 1024px){
+    .navbar{
+        display: block;
+        padding: 3px;
+        margin-bottom: 25px;
+
+        nav{
+            margin: 15px 0;
+            text-align: center;
+        }
+    }
+
+    .home{
+        justify-content: center;
+    }
+
+}
+
+@media (max-width: 480px){
+    .navbar{
+        display: block;
+        padding: 3px;
+        margin-bottom: 25px;
+
+        nav{
+            margin: 0;
+            text-align: center;
+        }
+    }
+
+}

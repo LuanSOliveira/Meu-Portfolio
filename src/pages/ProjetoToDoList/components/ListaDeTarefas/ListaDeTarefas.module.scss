@@ -1,0 +1,21 @@
+.lista{
+    background-color: rgb(44, 31, 161);
+    width: 352px;
+    padding: 8px;
+    margin: 20px;
+    border-radius: 12px;
+    box-shadow: 3px 2px 5px black;
+    text-align: center;
+    min-height: 400px;
+
+    h2{
+        color: azure; 
+    }
+}
+
+@media (max-width: 480px){
+    .lista{
+        display: block;
+        align-items: center;
+    }
+}

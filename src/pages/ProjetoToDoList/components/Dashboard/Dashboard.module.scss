@@ -1,0 +1,15 @@
+.dashboard{
+    background-color:rgba(18,0,177,0.4);
+    padding: 12px;
+    margin: 12px 35px 70px 35px;
+    border-radius: 12px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+@media (max-width: 480px){
+    .dashboard{
+        margin-bottom: 22px;
+    }
+}
