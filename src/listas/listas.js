@@ -170,7 +170,7 @@ export const listaProjetos = [
     {
         id: uuid(),
         nome: "EM BREVE",
-        tumb: "src/assets/tumbs/tumb-emBreve.jpeg",
+        tumb: "src/assets/tumbs/tumb-emBreve.jpg",
         descricao: "PROJETO EM PRODUÇÃO",
         estado: "producao",
         ide: [
