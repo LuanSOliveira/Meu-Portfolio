@@ -4,7 +4,12 @@ import styles from "./Navbar.module.css"
 const Titulo = () => {
     return(
         <div className={styles.navbar}>
-            <h1>Poke<img src="src/assets/img/react.svg" alt="logo-react"/>Dex</h1>
+            <h1>
+                Poke
+                <img src="https://raw.githubusercontent.com/LuanSOliveira/Meu-Portfolio/b858406e00cd66daa7dd4f2c0064c120c17ce5a5/src/assets/img/react.svg"
+                     alt="logo-react"/>
+                Dex
+            </h1>
             <div className={styles.geracoes}>
                 <BtnGeracao nome="001 ~ 151" gen={1}/>
                 <BtnGeracao nome="152 ~ 251" gen={2}/>
