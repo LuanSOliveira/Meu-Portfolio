@@ -7,7 +7,7 @@ const Navbar = (props) => {
     return(
         <header className={styles.navbar}>
             <div className={styles.home}>
-                <img src="src/assets/img/home-icon.png" alt="icone home"/>
+                <img src="https://raw.githubusercontent.com/LuanSOliveira/Meu-Portfolio/main/src/assets/img/home-icon.png" alt="icone home"/>
                 <h1>Meu Portfólio</h1>
             </div>
             <nav>

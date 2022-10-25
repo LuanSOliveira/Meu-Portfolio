@@ -86,7 +86,7 @@ export const listaProjetos = [
     {
         id: uuid(),
         nome: "To Do List",
-        tumb: "src/assets/tumbs/tumb-toDoList.png",
+        tumb: "https://raw.githubusercontent.com/LuanSOliveira/Meu-Portfolio/main/src/assets/tumbs/tumb-toDoList.png",
         descricao: "Projeto criado para simular um Kanban, um quadro de sinalização que controla os fluxos de produção ou transportes em uma indústria.",
         estado: "concluido",
         projeto: "/projeto-to-do-list",
@@ -128,7 +128,7 @@ export const listaProjetos = [
     {
         id: uuid(),
         nome: "Pokedex",
-        tumb: "src/assets/tumbs/tumb-pokedex.png",
+        tumb: "https://raw.githubusercontent.com/LuanSOliveira/Meu-Portfolio/main/src/assets/tumbs/tumb-pokedex.png",
         descricao: "Projeto criado para simular uma pokedex consultando as informações em uma API pública.",
         estado: "concluido",
         projeto: "/projeto-pokedex",
@@ -170,20 +170,20 @@ export const listaProjetos = [
     {
         id: uuid(),
         nome: "EM BREVE",
-        tumb: "./src/assets/tumbs/tumb-emBreve.jpg",
+        tumb: "https://raw.githubusercontent.com/LuanSOliveira/Meu-Portfolio/main/src/assets/tumbs/tumb-emBreve.jpeg",
         descricao: "PROJETO EM PRODUÇÃO",
         estado: "producao",
         ide: [
             {
                 id: uuid(),
-                img: "./src/assets/img/icon-relogio.png",
+                img: "https://raw.githubusercontent.com/LuanSOliveira/Meu-Portfolio/main/src/assets/img/icon-relogio.png",
                 nome: "EM BREVE"
             }
         ],
         linguagem: [
             {
                 id: uuid(),
-                img: "./src/assets/img/icon-relogio.png",
+                img: "https://raw.githubusercontent.com/LuanSOliveira/Meu-Portfolio/main/src/assets/img/icon-relogio.png",
                 nome: "EM BREVE"
             }
         ]
