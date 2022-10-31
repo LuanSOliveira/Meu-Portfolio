@@ -89,7 +89,7 @@ export const listaProjetos = [
         tumb: "https://raw.githubusercontent.com/LuanSOliveira/Meu-Portfolio/main/src/assets/tumbs/tumb-toDoList.png",
         descricao: "Projeto criado para simular um Kanban, um quadro de sinalização que controla os fluxos de produção ou transportes em uma indústria.",
         estado: "concluido",
-        projeto: "/projeto-to-do-list",
+        projeto: "https://projeto-kanban.vercel.app/",
         ide: [
             {
                 id: uuid(),
@@ -131,7 +131,7 @@ export const listaProjetos = [
         tumb: "https://raw.githubusercontent.com/LuanSOliveira/Meu-Portfolio/main/src/assets/tumbs/tumb-pokedex.png",
         descricao: "Projeto criado para simular uma pokedex consultando as informações em uma API pública.",
         estado: "concluido",
-        projeto: "/projeto-pokedex",
+        projeto: "https://projeto-react-pokedex.vercel.app/",
         ide: [
             {
                 id: uuid(),

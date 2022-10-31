@@ -25,8 +25,8 @@ const BoxDeProjetos = ({nome, tumb, descricao, ide, linguagem, estado, projeto})
                 </div>
                 <div className={styles.btnTestar}>
                     {(estado !== "producao") 
-                        ? <Link to={projeto}><Botao nomeClasse={stylesBotao.botao} nome="Testar Projeto"/></Link> 
-                        : <Botao nomeClasse={stylesBotao.botaoInativo} nome="Testar" ativacao={true}/>
+                        ? <a href={projeto} target="_blank" rel="noopener noreferrer"><Botao nomeClasse={stylesBotao.botao} nome="Testar Projeto"/></a> 
+                        : <Botao nomeClasse={stylesBotao.botaoInativo} nome="Testar Projeto" ativacao={true}/>
                     }
                 </div>
             </div>
