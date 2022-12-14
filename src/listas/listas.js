@@ -169,6 +169,43 @@ export const listaProjetos = [
     },
     {
         id: uuid(),
+        nome: "Calculadora ReactJS",
+        tumb: "https://raw.githubusercontent.com/LuanSOliveira/Meu-Portfolio/main/src/assets/tumbs/tumb-calc.png",
+        descricao: "Projeto criado em ReactJS onde é possível se utilizar das funções de uma calculadora básica.",
+        estado: "concluido",
+        projeto: "https://calculator-react-brown.vercel.app/",
+        ide: [
+            {
+                id: uuid(),
+                img: listaConhecimentos[6].img,
+                nome: listaConhecimentos[6].nome
+            }
+        ],
+        linguagem: [
+            {
+                id: uuid(),
+                img: listaConhecimentos[0].img,
+                nome: listaConhecimentos[0].nome
+            },
+            {
+                id: uuid(),
+                img: listaConhecimentos[1].img,
+                nome: listaConhecimentos[1].nome
+            },
+            {
+                id: uuid(),
+                img: listaConhecimentos[2].img,
+                nome: listaConhecimentos[2].nome
+            },
+            {
+                id: uuid(),
+                img: listaConhecimentos[3].img,
+                nome: listaConhecimentos[3].nome
+            },
+        ]
+    },
+    {
+        id: uuid(),
         nome: "EM BREVE",
         tumb: "https://raw.githubusercontent.com/LuanSOliveira/Meu-Portfolio/main/src/assets/tumbs/tumb-emBreve.jpeg",
         descricao: "PROJETO EM PRODUÇÃO",
