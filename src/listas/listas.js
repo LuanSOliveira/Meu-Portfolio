@@ -206,6 +206,43 @@ export const listaProjetos = [
     },
     {
         id: uuid(),
+        nome: "Biblioteca de Países",
+        tumb: "https://raw.githubusercontent.com/LuanSOliveira/Meu-Portfolio/main/src/assets/tumbs/tumb-ondeNoMundo.png",
+        descricao: "Projeto criado em ReactJS onde é realizada a consulta de informações dos países do mundo em duas API's e apresenta para o usuário.",
+        estado: "concluido",
+        projeto: "https://onde-no-mundo.vercel.app/",
+        ide: [
+            {
+                id: uuid(),
+                img: listaConhecimentos[6].img,
+                nome: listaConhecimentos[6].nome
+            }
+        ],
+        linguagem: [
+            {
+                id: uuid(),
+                img: listaConhecimentos[0].img,
+                nome: listaConhecimentos[0].nome
+            },
+            {
+                id: uuid(),
+                img: listaConhecimentos[1].img,
+                nome: listaConhecimentos[1].nome
+            },
+            {
+                id: uuid(),
+                img: listaConhecimentos[2].img,
+                nome: listaConhecimentos[2].nome
+            },
+            {
+                id: uuid(),
+                img: listaConhecimentos[3].img,
+                nome: listaConhecimentos[3].nome
+            },
+        ]
+    },
+    {
+        id: uuid(),
         nome: "EM BREVE",
         tumb: "https://raw.githubusercontent.com/LuanSOliveira/Meu-Portfolio/main/src/assets/tumbs/tumb-emBreve.jpeg",
         descricao: "PROJETO EM PRODUÇÃO",
