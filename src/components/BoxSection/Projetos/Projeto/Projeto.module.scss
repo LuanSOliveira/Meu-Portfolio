@@ -1,0 +1,243 @@
+.Projeto{
+    img{
+        width: 250px;
+        height: 200px;
+        margin-top: 18px;
+        border-radius: 15px;
+    }
+}
+
+.Informacoes{
+    background: #27223C;
+    border-radius: 15px;
+    width: 250px;
+    height: 200px;
+    padding: 5px 8px;
+}
+
+.Titulo{
+    margin-bottom: 15px;
+
+    h2{
+        font-size: 18px;
+    }
+}
+
+.LinhaTitulo{
+    button{
+        cursor: pointer;
+        font-size: 14px;
+        margin: 5px 0;
+        color: #f3f3f3;
+        padding: 5px;
+        background: #39304A;
+        border: none;
+        border-radius: 15px;
+        box-shadow: 0 0 3px 2px rgba(0,0,0,0.1);
+    }
+}
+
+.Descricao{
+    font-size: 14px;
+    text-align: justify;
+}
+
+.BoxTecnologias{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    overflow-y: scroll;
+    height: 120px;
+}
+
+.Tecnologia{
+    width: 85px;
+    background: #39304A;
+    border: none;
+    border-radius: 25px;
+    box-shadow: 0 0 3px 2px rgba(0,0,0,0.1);
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 14px;
+    margin: 10px;
+
+    p{
+        width: 70px;
+        text-align: center;
+    }
+
+    img{
+        width: 50px;
+        height: 55px;
+        margin-top: 6px;
+    }
+}
+
+@media(min-width: 800px){
+    .Projeto{
+        img{
+            width: 380px;
+            height: 180px;
+        }
+    }
+
+    .Informacoes{
+        width: 380px;
+        height: 180px;
+    }
+
+    .Tecnologia{
+        img{
+            width: 50px;
+            height: 55px;
+        }
+    }
+}
+
+@media(min-width: 1024px){
+    .Projeto{
+        img{
+            width: 380px;
+            height: 200px;
+        }
+    }
+
+    .Informacoes{
+        width: 380px;
+        height: 200px;
+    }
+
+    .LinhaTitulo{
+        display: flex;
+        justify-content: space-between;
+        padding: 12px 12px 0 12px;
+
+        button{
+            font-size: 18px;
+            margin: 0;
+        }
+    }
+
+    .Titulo{
+        h2{
+            font-size: 25px;
+        }
+    }
+
+    .Tecnologia{
+        img{
+            width: 50px;
+            height: 55px;
+        }
+    }
+
+    .Descricao{
+        font-size: 18px;
+    }
+}
+
+@media(min-width: 1280px){
+    .Projeto{
+        img{
+            width: 440px;
+            height: 240px;
+        }
+    }
+
+    .Informacoes{
+        width: 440px;
+        height: 240px;
+    }
+
+    .LinhaTitulo{
+        display: flex;
+        justify-content: space-between;
+        padding: 12px 12px 0 12px;
+
+        button{
+            font-size: 18px;
+            margin: 0;
+        }
+    }
+
+    .Titulo{
+        h2{
+            font-size: 28px;
+        }
+    }
+
+    .BoxTecnologias{
+        height: 200px;
+    }
+
+    .Tecnologia{
+        img{
+            width: 50px;
+            height: 55px;
+        }
+    }
+
+    .Descricao{
+        font-size: 18px;
+    }
+}
+
+@media(min-width: 1440px){
+    .Projeto{
+        img{
+            width: 520px;
+            height: 300px;
+        }
+    }
+
+    .Informacoes{
+        width: 520px;
+        height: 300px;
+    }
+
+    .Tecnologia{
+        img{
+            width: 50px;
+            height: 55px;
+        }
+    }
+
+    .BoxTecnologias{
+        height: 280px;
+        overflow: hidden;
+    }
+
+    .Descricao{
+        font-size: 22px;
+    }
+}
+
+@media(min-width: 1920px){
+    .Projeto{
+        img{
+            width: 600px;
+            height: 360px;
+        }
+    }
+
+    .Informacoes{
+        width: 600px;
+        height: 360px;
+        h2{
+            font-size: 34px;
+        }
+    }
+
+    .Tecnologia{
+        height: 90px;
+        img{
+            width: 50px;
+            height: 55px;
+        }
+    }
+
+    .Descricao{
+        font-size: 28px;
+    }
+}
