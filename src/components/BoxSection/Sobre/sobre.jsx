@@ -4,7 +4,7 @@ const Sobre = () => {
     return(
         <div className={styles.Sobre}>
             <div className={styles.BoxAvatar} data-aos="zoom-in-down">
-                <img src='/Avatar1.png' alt='Meu avatar 3D' className={"animate__animated animate__pulse animate__slower animate__infinite"}/>
+                <img src='/Avatar1.png' alt='Meu avatar 3D'/>
             </div>
             <div className={styles.Descricao} data-aos="zoom-in-up">
                 <h1>Sobre mim</h1>

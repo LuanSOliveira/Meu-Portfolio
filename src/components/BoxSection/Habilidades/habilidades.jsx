@@ -5,7 +5,7 @@ const Habilidades = () => {
     return(
         <div className={styles.Habilidades}>
             <div className={styles.BoxAvatar} data-aos="zoom-in-right">
-                <img src='/Avatar3.png' alt='Meu Avatar 3D' className={"animate__animated animate__pulse animate__slower animate__infinite"}/>
+                <img src='/Avatar3.png' alt='Meu Avatar 3D'/>
             </div>
             <div className={styles.BoxDeHabilidades} data-aos="zoom-out-rigth">
                 <h1>Minhas Habilidades</h1>

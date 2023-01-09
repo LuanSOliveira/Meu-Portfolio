@@ -36,13 +36,13 @@ const Projetos = () => {
             {
                 (larguraTela >= 800 && alturaTela < 667) &&
                 <div className={styles.ImagemAvatar} data-aos="zoom-in">
-                    <img src='/Avatar4.png' alt='Meu Avatar 3D' className={"animate__animated animate__pulse animate__slower animate__infinite"}/>
+                    <img src='/Avatar4.png' alt='Meu Avatar 3D'/>
                 </div>
             }
             {
                 (alturaTela > 667) &&
                 <div className={styles.ImagemAvatar} data-aos="zoom-in">
-                    <img src='/Avatar4.png' alt='Meu Avatar 3D' className={"animate__animated animate__pulse animate__slower animate__infinite"}/>
+                    <img src='/Avatar4.png' alt='Meu Avatar 3D'/>
                 </div>
             }
         </div>
