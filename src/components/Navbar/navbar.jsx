@@ -25,7 +25,7 @@ const Navbar = ({funcao, referencias}) => {
         <nav className={styles.Navbar}>
             <div className={styles.BoxNavbar} data-aos="fade-right">
                 <div className={styles.BoxImagem}>
-                    <img src='https://media.licdn.com/dms/image/D4D35AQFZklV_3ARFYQ/profile-framedphoto-shrink_200_200/0/1667826101922?e=1673362800&v=beta&t=5oYSo_RoGFYIzuQ41d7FiujEFKB42zwxpCCOLBB4pOQ' 
+                    <img src='https://media.licdn.com/dms/image/D4D35AQFZklV_3ARFYQ/profile-framedphoto-shrink_200_200/0/1667826101922?e=1675350000&v=beta&t=dJlzMDyKRCXAufHyBSk2OETAzjnJsXigWgwTrM8H6QQ' 
                         alt='Imagem do Perfil - Linkedin'
                     />
                     <p>Meu Portfólio</p>
