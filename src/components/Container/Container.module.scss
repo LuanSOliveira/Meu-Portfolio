@@ -1,0 +1,28 @@
+.Container{
+    width: 100vw;
+    max-width: 100vw;
+}
+
+@media(min-width: 1024px){
+    .Container{
+        width: 98.3vw;
+    }
+}
+
+@media(min-width: 1280px){
+    .Container{
+        width: 98.7vw;
+    }
+}
+
+@media(min-width: 1440px){
+    .Container{
+        width: 98.8vw;
+    }
+}
+
+@media(min-width: 1920px){
+    .Container{
+        width: 99.1vw;
+    }
+}
