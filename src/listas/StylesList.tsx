@@ -1,0 +1,1 @@
+export const backgroundColor: string[] = ['#00ABB3','#3C4048','#B2B2B2']
