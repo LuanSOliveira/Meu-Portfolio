@@ -1,0 +1,141 @@
+.Sobre{
+    padding-top: 15px;
+    text-align: center;
+}
+
+.Descricao{
+    margin-top: 18px;
+    h1{
+        font-size: 35px;
+    }
+
+    p{
+        padding: 11px;
+        margin-top: 20px;
+        font-size: 18px;
+        text-align: justify;
+    }
+}
+
+.BoxAvatar{
+    img{
+        width: 200px;
+    }
+}
+
+@media(min-width: 414px){
+    .BoxAvatar{
+        img{
+            width: 350px;
+        }
+    }
+}
+
+@media(min-height: 667px){
+    .BoxAvatar{
+        img{
+            width: 350px;
+        }
+    }
+}
+
+@media(min-width: 800px){
+    .Sobre{
+        display: flex;
+        text-align: left;
+    }
+
+    .Descricao{
+        h1{
+            font-size: 45px;
+        }
+
+        p{
+            padding: 0 15px 0 0;
+        }
+    }
+}
+
+@media(min-width: 1024px){
+    .Sobre{
+        margin: 60px 0 0 210px;
+    }
+
+    .Descricao{
+        width: 400px;
+        h1{
+            font-size: 52px;
+        }
+
+        p{
+            font-size: 21px;
+        }
+    }
+}
+
+@media(min-width: 1280px){
+    .Sobre{
+        margin: 80px 0 0 210px;
+    }
+
+    .Descricao{
+        width: 600px;
+        h1{
+            font-size: 62px;
+        }
+
+        p{
+            font-size: 30px;
+        }
+    }
+
+    .BoxAvatar{
+        img{
+            width: 410px;
+        }
+    }
+}
+
+@media(min-width: 1440px){
+    .Sobre{
+        margin: 140px 0 0 210px;
+    }
+
+    .Descricao{
+        width: 780px;
+    }
+}
+
+@media(min-width: 1600px){
+    .Sobre{
+        margin: 160px 0 0 210px;
+    }
+
+    .Descricao{
+        width: 800px;
+    }
+
+    .BoxAvatar{
+        img{
+            width: 500px;
+        }
+    }
+}
+
+@media(min-width: 1920px){
+    .Descricao{
+        width: 1000px;
+        h1{
+            font-size: 82px;
+        }
+        p{
+            font-size: 42px;
+        }
+    }
+
+    .BoxAvatar{
+        img{
+            width: 600px;
+        }
+    }
+}
